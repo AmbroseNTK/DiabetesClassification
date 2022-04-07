@@ -1,0 +1,18 @@
+type: object
+properties:
+  Pregnancies:
+    type: number
+  PlasmaGlucose:
+    type: number
+  DiastolicBloodPressure:
+    type: number
+  TricepsThickness:
+    type: number
+  SerumInsulin:
+    type: number
+  BMI:
+    type: number
+  DiabetesPedigree:
+    type: number
+  Age:
+    type: number

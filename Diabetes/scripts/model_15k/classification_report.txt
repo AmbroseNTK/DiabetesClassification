@@ -1,0 +1,90 @@
+XGBoost
+              precision    recall  f1-score   support
+
+           0       0.92      0.94      0.93      1933
+           1       0.88      0.84      0.86       958
+
+    accuracy                           0.91      2891
+   macro avg       0.90      0.89      0.90      2891
+weighted avg       0.91      0.91      0.91      2891
+
+NaiveBayes
+              precision    recall  f1-score   support
+
+           0       0.79      0.89      0.84      1933
+           1       0.70      0.54      0.61       958
+
+    accuracy                           0.77      2891
+   macro avg       0.75      0.71      0.72      2891
+weighted avg       0.76      0.77      0.76      2891
+
+RandomForest
+              precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92      1933
+           1       0.85      0.81      0.83       958
+
+    accuracy                           0.89      2891
+   macro avg       0.88      0.87      0.87      2891
+weighted avg       0.89      0.89      0.89      2891
+
+LogisticRegression
+              precision    recall  f1-score   support
+
+           0       0.78      0.90      0.84      1933
+           1       0.72      0.49      0.58       958
+
+    accuracy                           0.77      2891
+   macro avg       0.75      0.70      0.71      2891
+weighted avg       0.76      0.77      0.75      2891
+
+KNN
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89      1933
+           1       0.80      0.72      0.76       958
+
+    accuracy                           0.85      2891
+   macro avg       0.83      0.82      0.82      2891
+weighted avg       0.84      0.85      0.84      2891
+
+DecisionTree
+              precision    recall  f1-score   support
+
+           0       0.85      0.94      0.89      1933
+           1       0.84      0.66      0.74       958
+
+    accuracy                           0.84      2891
+   macro avg       0.84      0.80      0.81      2891
+weighted avg       0.84      0.84      0.84      2891
+
+AdaBoost
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93      1933
+           1       0.89      0.82      0.85       958
+
+    accuracy                           0.91      2891
+   macro avg       0.90      0.88      0.89      2891
+weighted avg       0.90      0.91      0.90      2891
+
+SVM
+              precision    recall  f1-score   support
+
+           0       0.85      0.92      0.88      1933
+           1       0.80      0.67      0.73       958
+
+    accuracy                           0.83      2891
+   macro avg       0.82      0.79      0.80      2891
+weighted avg       0.83      0.83      0.83      2891
+
+NeuralNetwork2Layers
+              precision    recall  f1-score   support
+
+           0       0.94      0.84      0.89      1933
+           1       0.74      0.90      0.81       958
+
+    accuracy                           0.86      2891
+   macro avg       0.84      0.87      0.85      2891
+weighted avg       0.88      0.86      0.86      2891
+

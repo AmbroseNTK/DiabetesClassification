@@ -1,0 +1,9 @@
+XGBoost
+NaiveBayes
+RandomForest
+LogisticRegression
+KNN
+DecisionTree
+AdaBoost
+SVM
+NeuralNetwork2Layers

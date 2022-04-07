@@ -1,0 +1,45 @@
+type: object
+required:
+- Pregnancies
+- PlasmaGlucose
+- DiastolicBloodPressure
+- TricepsThickness
+- SerumInsulin
+- BMI
+- DiabetesPedigree
+- Age
+properties:
+  Pregnancies:
+    type: string
+    nullable: true
+  PlasmaGlucose:
+    type: string
+    nullable: true
+  DiastolicBloodPressure:
+    type: string
+    nullable: true
+  TricepsThickness:
+    type: string
+    nullable: true
+  SerumInsulin:
+    type: string
+    nullable: true
+  BMI:
+    type: string
+    nullable: true
+  DiabetesPedigree:
+    type: string
+    nullable: true
+  Age:
+    type: string
+    nullable: true
+nullable: true
+example:
+  Pregnancies: '2.0'
+  PlasmaGlucose: '104.0'
+  DiastolicBloodPressure: '72.0'
+  TricepsThickness: '31.0'
+  SerumInsulin: '83.0'
+  BMI: '31.78648718'
+  DiabetesPedigree: '0.200443266'
+  Age: '24.0'

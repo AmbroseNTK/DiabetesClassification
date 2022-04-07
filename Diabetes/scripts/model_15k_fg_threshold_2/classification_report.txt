@@ -1,0 +1,88 @@
+XGBoost
+              precision    recall  f1-score   support
+
+           0       0.92      0.94      0.93      1933
+           1       0.88      0.84      0.86       958
+
+    accuracy                           0.91      2891
+   macro avg       0.90      0.89      0.90      2891
+weighted avg       0.91      0.91      0.91      2891
+
+5 folds: accuracy: 0.8986499811750364; precision: 0.8671292720638855; recall: 0.8205388307155322; f1: 0.8422601782714029; best threshold: 0.33097824
+NaiveBayes
+              precision    recall  f1-score   support
+
+           0       0.79      0.89      0.84      1933
+           1       0.70      0.54      0.61       958
+
+    accuracy                           0.77      2891
+   macro avg       0.75      0.71      0.72      2891
+weighted avg       0.76      0.77      0.76      2891
+
+5 folds: accuracy: 0.7703187096234408; precision: 0.7078058238199221; recall: 0.5219568062827225; f1: 0.6006259075726859; best threshold: 0.2650547028010106
+RandomForest
+              precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92      1933
+           1       0.85      0.81      0.83       958
+
+    accuracy                           0.89      2891
+   macro avg       0.88      0.87      0.87      2891
+weighted avg       0.89      0.89      0.89      2891
+
+5 folds: accuracy: 0.8817003424350538; precision: 0.8504024509011044; recall: 0.7808736910994764; f1: 0.8135182281725812; best threshold: 0.3
+LogisticRegression
+              precision    recall  f1-score   support
+
+           0       0.78      0.90      0.84      1933
+           1       0.72      0.49      0.58       958
+
+    accuracy                           0.77      2891
+   macro avg       0.75      0.70      0.71      2891
+weighted avg       0.76      0.77      0.75      2891
+
+5 folds: accuracy: 0.7654803951449523; precision: 0.7214856568893036; recall: 0.47708878708551483; f1: 0.5739825452637887; best threshold: 0.40933191950849684
+KNN
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89      1933
+           1       0.80      0.72      0.76       958
+
+    accuracy                           0.85      2891
+   macro avg       0.83      0.82      0.82      2891
+weighted avg       0.84      0.85      0.84      2891
+
+5 folds: accuracy: 0.8163281161291094; precision: 0.7597711301757043; recall: 0.653463132635253; f1: 0.7020367140875715; best threshold: 0.4
+DecisionTree
+              precision    recall  f1-score   support
+
+           0       0.85      0.94      0.89      1933
+           1       0.84      0.66      0.74       958
+
+    accuracy                           0.84      2891
+   macro avg       0.84      0.80      0.81      2891
+weighted avg       0.84      0.84      0.84      2891
+
+5 folds: accuracy: 0.8391589125744782; precision: 0.7455672718120319; recall: 0.7850130890052356; f1: 0.7635420747275203; best threshold: 0.41935483870967744
+AdaBoost
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93      1933
+           1       0.89      0.82      0.85       958
+
+    accuracy                           0.91      2891
+   macro avg       0.90      0.88      0.89      2891
+weighted avg       0.90      0.91      0.90      2891
+
+5 folds: accuracy: 0.8983021675601053; precision: 0.8594226343457347; recall: 0.8288394415357766; f1: 0.8436432987943426; best threshold: 0.49770280699808656
+SVM
+              precision    recall  f1-score   support
+
+           0       0.85      0.92      0.88      1933
+           1       0.80      0.67      0.73       958
+
+    accuracy                           0.83      2891
+   macro avg       0.82      0.79      0.80      2891
+weighted avg       0.83      0.83      0.83      2891
+
+5 folds: accuracy: 0.7966085184454762; precision: 0.7983089453719021; recall: 0.5178065008726004; f1: 0.6271778842983532; best threshold: 0.22298740459948682

@@ -1,0 +1,90 @@
+AdaBoost.pkl
+              precision    recall  f1-score   support
+
+           0       0.77      0.54      0.64       262
+           1       0.42      0.68      0.52       130
+
+    accuracy                           0.59       392
+   macro avg       0.60      0.61      0.58       392
+weighted avg       0.66      0.59      0.60       392
+
+DecisionTree.pkl
+              precision    recall  f1-score   support
+
+           0       0.70      0.69      0.70       262
+           1       0.40      0.41      0.40       130
+
+    accuracy                           0.60       392
+   macro avg       0.55      0.55      0.55       392
+weighted avg       0.60      0.60      0.60       392
+
+KNN.pkl
+              precision    recall  f1-score   support
+
+           0       0.74      0.50      0.60       262
+           1       0.39      0.64      0.48       130
+
+    accuracy                           0.55       392
+   macro avg       0.56      0.57      0.54       392
+weighted avg       0.62      0.55      0.56       392
+
+LogisticRegression.pkl
+              precision    recall  f1-score   support
+
+           0       0.78      0.89      0.83       262
+           1       0.70      0.49      0.58       130
+
+    accuracy                           0.76       392
+   macro avg       0.74      0.69      0.70       392
+weighted avg       0.75      0.76      0.75       392
+
+NaiveBayes.pkl
+              precision    recall  f1-score   support
+
+           0       0.75      0.89      0.81       262
+           1       0.64      0.38      0.48       130
+
+    accuracy                           0.72       392
+   macro avg       0.69      0.64      0.65       392
+weighted avg       0.71      0.72      0.70       392
+
+NeuralNetwork2Layers.h5
+              precision    recall  f1-score   support
+
+           0       0.76      0.35      0.48       262
+           1       0.37      0.78      0.50       130
+
+    accuracy                           0.49       392
+   macro avg       0.57      0.57      0.49       392
+weighted avg       0.63      0.49      0.49       392
+
+RandomForest.pkl
+              precision    recall  f1-score   support
+
+           0       0.80      0.58      0.67       262
+           1       0.45      0.70      0.55       130
+
+    accuracy                           0.62       392
+   macro avg       0.62      0.64      0.61       392
+weighted avg       0.68      0.62      0.63       392
+
+SVM.pkl
+              precision    recall  f1-score   support
+
+           0       0.78      0.58      0.67       262
+           1       0.44      0.66      0.53       130
+
+    accuracy                           0.61       392
+   macro avg       0.61      0.62      0.60       392
+weighted avg       0.67      0.61      0.62       392
+
+XGBoost.pkl
+              precision    recall  f1-score   support
+
+           0       0.75      0.55      0.64       262
+           1       0.41      0.62      0.49       130
+
+    accuracy                           0.58       392
+   macro avg       0.58      0.59      0.56       392
+weighted avg       0.64      0.58      0.59       392
+

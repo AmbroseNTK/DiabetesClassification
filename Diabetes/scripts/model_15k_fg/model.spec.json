@@ -1,0 +1,113 @@
+{
+    "features": [
+        {
+            "name": "DiastolicBloodPressure",
+            "type": "number",
+            "unit": "mmHg",
+            "describes": {
+                "count": 15000,
+                "min": 24.0,
+                "max": 117.0,
+                "std": 16.75871603653161,
+                "mean": 71.22066666666667,
+                "thresholds":[24,90,130]
+            }
+        },
+        {
+            "name": "SerumInsulin",
+            "type": "number",
+            "unit": "mg/dL",
+            "describes": {
+                "count": 15000,
+                "min": 14.0,
+                "max": 799.0,
+                "std": 133.06825195901357,
+                "mean": 137.85213333333334,
+                "thresholds":[14,200,799]
+            }
+        },
+        {
+            "name": "BMI",
+            "type": "number",
+            "unit": "kg/m2",
+            "describes": {
+                "count": 15000,
+                "min": 18.20051152,
+                "max": 56.03462763,
+                "std": 9.758999734051915,
+                "mean": 31.509646041017337,
+                "thresholds":[10,30,50]
+            }
+        },
+        {
+            "name": "Fasting Glucose",
+            "type": "number",
+            "unit": "mg/dL",
+            "describes": {
+                "count": 15000,
+                "min": 57.69491525,
+                "max": 122.9152542,
+                "std": 14.093751542000154,
+                "mean": 85.83522937908,
+                "thresholds":[57, 100,126]
+            }
+        },
+        {
+            "name": "Age",
+            "type": "number",
+            "unit": "years",
+            "describes": {
+                "count": 15000,
+                "min": 21.0,
+                "max": 77.0,
+                "std": 12.089702515888623,
+                "mean": 30.137733333333333,
+                "thresholds":[18,40,100]
+            }
+        }
+    ],
+    "models": [
+        {
+            "name": "XGBoost",
+            "evaluation": {
+                "metrics": [
+                    "accuracy",
+                    "f1",
+                    "precision",
+                    "recall",
+                    "support"
+                ],
+                "values": {
+                    "0": [
+                        0.92,
+                        0.94,
+                        0.93,
+                        1933
+                    ],
+                    "1": [
+                        0.88,
+                        0.84,
+                        0.86,
+                        958
+                    ],
+                    "accuracy": [
+                        0.91,
+                        2891
+                    ],
+                    "macro avg": [
+                        0.90,
+                        0.89,
+                        0.90,
+                        2891
+                    ],
+                    "weighted avg": [
+                        0.91,
+                        0.91,
+                        0.91,
+                        2891
+                    ]
+                }
+            }
+        }
+    ]
+}
