@@ -26,7 +26,6 @@ Từ đó, hệ thống sẽ thực hiện chẩn đoán bệnh tiểu đường
 <p align="justify">
 Sử dụng các thuật toán học máy SVM, kNN và Random Forest để huấn luyện. Đánh giá và so sánh để chọn ra giải thuật tối ưu nhất để [giải quyết](#datvande) bài toán này.
 </p>
-<a href="#datvande">[giải quyết]</a>
 
 ## 2. Data Collection
 
@@ -42,8 +41,3 @@ Dữ liệu thu thập từ các khảo sát thực tế gồm 688 cá thể v�
 - **BMI**: Chỉ số khối của cơ thể (kg/m2)
 - **Pedigree**: Chức năng di truyền đối với bệnh tiểu đường
 - **Age**: Độ tuổi (log (years))
-
-###
-<p>
-<a href="#1-Đặt-vấn-đề">hello</a>
-</p>
