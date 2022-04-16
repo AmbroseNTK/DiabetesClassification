@@ -24,7 +24,7 @@ Từ đó, hệ thống sẽ thực hiện chẩn đoán bệnh tiểu đường
 ### 1.2. Non-functional Requirements
 
 <p align="justify">
-Sử dụng các thuật toán học máy SVM, kNN và Random Forest để huấn luyện. Đánh giá và so sánh để chọn ra giải thuật tối ưu nhất để [giải quyết](#datvande) bài toán này.
+Sử dụng các thuật toán học máy SVM, kNN và Random Forest để huấn luyện. Đánh giá và so sánh để chọn ra giải thuật tối ưu nhất để giải quyết bài toán này.
 </p>
 
 ## 2. Data Collection
